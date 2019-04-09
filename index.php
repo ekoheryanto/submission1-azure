@@ -14,17 +14,20 @@
  	th { font-size: 1.2em; text-align: left; border: none; padding-left: 0; }
  	td { padding: 0.25em 2em 0.25em 0em; border: 0 none; }
     marquee{ font-size:20px}
+    #name{margin-left:29}
+    #email{margin-left:31}
+    #job{margin-left:7}
  </style>
 
  </head>
  <body>
- <marquee direction="left">Selamat Datang Di Website Kami !</marquee>
+ <marquee direction="left">Silahkan Lakukan Registrasi Terlebih Dahulu !</marquee>
  <h1>Registrasi disini</h1>
  <p>Masukan nama anda dan alamat e-mail, kemudian click <strong>Submit</strong> untuk registrasi.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
-       Name     <input type="text" name="name" id="name"/></br></br>
-       Email    <input type="text" name="email" id="email"/></br></br>
-       Job      <input type="text" name="job" id="job"/></br></br>
+       Nama      <input type="text" name="name" id="name"/></br></br>
+       Email     <input type="text" name="email" id="email"/></br></br>
+       Pekerjaan <input type="text" name="job" id="job"/></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />
  </form>
